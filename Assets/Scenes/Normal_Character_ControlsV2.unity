@@ -249,7 +249,11 @@ MonoBehaviour:
   localWaypoints:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 3.37, z: 0}
-  speed: 0
+  - {x: 3.17, y: 3.37, z: 0}
+  speed: 2
+  cyclic: 1
+  waitTime: 0.5
+  easeAmount: 1
 --- !u!61 &716526676
 BoxCollider2D:
   m_ObjectHideFlags: 0
