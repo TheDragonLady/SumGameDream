@@ -16,7 +16,6 @@ public class RaycastController : MonoBehaviour
     [HideInInspector]
     public float verticalRaySpacing;
 
-    [HideInInspector]
     public new BoxCollider2D collider;
     public RaycastOrigins raycastOrigins;
 
