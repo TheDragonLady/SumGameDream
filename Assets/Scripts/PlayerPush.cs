@@ -13,7 +13,6 @@ public class PlayerPush : MonoBehaviour
 
     private void Start()
     {
-        
     }
 
     private void Update()
@@ -24,13 +23,21 @@ public class PlayerPush : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(boxDetector, Vector2.right, distance, boxMask);
         Debug.Log(hit.collider);
 
-        if(hit.collider !=null && Input.GetKeyDown(KeyCode.E))
+        if(hit.collider !=null && hit.collider.tag == "Pushable" && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("button is pressed");
             box = hit.collider.gameObject;
 
             box.GetComponent<FixedJoint2D>().enabled = true;
+            box.GetComponent<BoxPull>().beingPushed = true;
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
+            box.GetComponent<FixedJoint2D>().autoConfigureConnectedAnchor = false;
+
+        }
+        else if (Input.GetKeyUp(KeyCode.E))
+        {
+            box.GetComponent<FixedJoint2D>().enabled = false;
+            box.GetComponent<BoxPull>().beingPushed = false;
         }
     }
 
