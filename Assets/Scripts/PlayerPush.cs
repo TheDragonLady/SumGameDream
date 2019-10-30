@@ -13,9 +13,10 @@ public class PlayerPush : MonoBehaviour
 
     private void Start()
     {
+
     }
 
-    private void Update()
+    public void Update()
     {
         boxDetector = transform.position;
         boxDetector.x += width;
@@ -32,12 +33,14 @@ public class PlayerPush : MonoBehaviour
             box.GetComponent<BoxPull>().beingPushed = true;
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
             box.GetComponent<FixedJoint2D>().autoConfigureConnectedAnchor = false;
+            GetComponent<RaycastController>().collisionMask = LayerMask.GetMask("Obstacle");
 
         }
         else if (Input.GetKeyUp(KeyCode.E))
         {
             box.GetComponent<FixedJoint2D>().enabled = false;
             box.GetComponent<BoxPull>().beingPushed = false;
+            GetComponent<RaycastController>().collisionMask = LayerMask.GetMask("Obstacle", "Default");
         }
     }
 
@@ -47,4 +50,9 @@ public class PlayerPush : MonoBehaviour
 
         Gizmos.DrawLine(boxDetector, (Vector2)transform.position + Vector2.right * distance);
     }
+
+    //void DisableMask()
+    //{
+    //    player.GetComponent<RaycastController>().collisionMask = LayerMask.GetMask("Default");
+    //}
 }
