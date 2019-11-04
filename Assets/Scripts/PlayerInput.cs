@@ -6,35 +6,73 @@ using UnityEngine;
 [RequireComponent(typeof(Player))]
 public class PlayerInput : MonoBehaviour
 {
-    public Animator animator;
-    Player player;
+    public Controller2D controller;
+    public Animation_Script animScript;
+    public Vector2 directionalInput;
+    public Vector3 velocity;
 
-    bool jump = false;
+
+    Player player;
 
     void Start()
     {
         player = GetComponent<Player>();
     }
 
-    void FixedUpdate()
+    private void Update()
     {
-        Vector2 directionalInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        player.SetDirectionalInput(directionalInput);
 
-        //Sprinting Character
-        if(Input.GetKeyDown(KeyCode.LeftShift))
+    }
+
+    private void FixedUpdate()
+    {
+        directionalInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        player.SetDirectionalInput(directionalInput);
+        Vector3 jump = player.velocity;
+
+        AnimateCharacter(directionalInput);
+        GetButtons();
+    }
+
+    private void GetButtons()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             player.walkSpeed = player.sprintSpeed;
         }
 
-        if(Input.GetKeyUp(KeyCode.LeftShift))
+        if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             player.walkSpeed = 6f;
         }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            player.OnJumpInputDown();
+        }
+
+        if (Input.GetButtonUp("Jump"))
+        {
+            player.OnJumpInputUp();
+        }
     }
 
-    public void OnLanding()
+    public void AnimateCharacter(Vector2 charactermovement)
     {
-        animator.SetBool("IsJumping", false);
+        if (charactermovement.x > 0 || charactermovement.x < 0) //&& not jumping
+        {
+            animScript.PlayRun();
+        }
+        else
+        {
+            animScript.PlayIdle();
+        }
+
+        if(charactermovement.y > 0)
+        {
+            animScript.IsJumping();
+        }
     }
+
+
 }

@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     float accelerationTimeGrounded =.1f;
     public float walkSpeed;
     public float sprintSpeed;
+    public Vector3 velocity;
 
     public Vector2 wallJumpClimb;
     public Vector2 wallJumpOff;
@@ -24,7 +25,6 @@ public class Player : MonoBehaviour
     float gravity;
     float maxJumpVelocity;
     float minJumpVelocity;
-    Vector3 velocity;
     float velocityXSmoothing;
 
     Controller2D controller;
