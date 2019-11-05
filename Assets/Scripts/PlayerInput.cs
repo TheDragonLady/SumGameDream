@@ -9,7 +9,6 @@ public class PlayerInput : MonoBehaviour
     public Controller2D controller;
     public Animation_Script animScript;
     public Vector2 directionalInput;
-    public Vector3 velocity;
 
 
     Player player;
@@ -28,7 +27,6 @@ public class PlayerInput : MonoBehaviour
     {
         directionalInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         player.SetDirectionalInput(directionalInput);
-        Vector3 jump = player.velocity;
 
         AnimateCharacter(directionalInput);
         GetButtons();
@@ -68,10 +66,15 @@ public class PlayerInput : MonoBehaviour
             animScript.PlayIdle();
         }
 
-        if(charactermovement.y > 0)
+        if(player.velocity.y != 0f)
         {
-            animScript.IsJumping();
+            animScript.IsJumpingUp();
         }
+        else
+        {
+            animScript.IsJumpingDown();
+        }
+
     }
 
 

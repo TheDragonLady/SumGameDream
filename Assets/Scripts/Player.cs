@@ -133,7 +133,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    void CalculateVelocity()
+    public void CalculateVelocity()
     {
         float targetVelocityX = directionalInput.x * walkSpeed;
         velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);

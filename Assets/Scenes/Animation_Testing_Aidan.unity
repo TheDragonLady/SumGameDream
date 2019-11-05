@@ -6999,7 +6999,6 @@ MonoBehaviour:
   controller: {fileID: 3548634204268032058}
   animScript: {fileID: 3548634204268032064}
   directionalInput: {x: 0, y: 0}
-  velocity: {x: 0, y: 0, z: 0}
 --- !u!114 &3548634204268032061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7064,6 +7063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1206358892}
+  player: {fileID: 3548634204268032057}
 --- !u!23 &3548634204268032196
 MeshRenderer:
   m_ObjectHideFlags: 0
