@@ -75,6 +75,26 @@ public class PlayerInput : MonoBehaviour
             animScript.IsJumpingDown();
         }
 
+        if (player.wallSliding == true)
+        {
+            animScript.IsHolding();
+        }
+        else if (player.wallSliding == false && player.velocity.y == 0f)
+        {
+            animScript.IsNotHolding();
+        }
+
+        if (player.wallSliding == false && player.velocity.y != 0f)
+        {
+            animScript.IsNotHolding();
+            animScript.IsJumpingUp();
+        }
+
+        if (player.wallSliding == false && player.velocity.y != 0f)
+        {
+            animScript.WallJump();
+        }
+
     }
 
 

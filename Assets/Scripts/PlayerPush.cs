@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Player))]
 public class PlayerPush : MonoBehaviour
 {
     public float distance = 1f;
@@ -50,9 +51,9 @@ public class PlayerPush : MonoBehaviour
 
         Gizmos.DrawLine(boxDetector, (Vector2)transform.position + Vector2.right * distance);
     }
-
+    
     //void DisableMask()
     //{
-    //    player.GetComponent<RaycastController>().collisionMask = LayerMask.GetMask("Default");
+    //    gameObject.GetComponent<RaycastController>().collisionMask = LayerMask.GetMask("Default");
     //}
 }

@@ -42,6 +42,29 @@ public class Animation_Script : MonoBehaviour
         }
     }
 
+    public void IsHolding()
+    {
+        if(player.wallSliding == true)
+        {
+            anim.SetBool("WallHold", true);
+            anim.SetBool("IsJumping", false);
+            anim.GetComponent<SpriteRenderer>().flipX = false;
+        }
+    }
+
+    public void IsNotHolding()
+    {
+        anim.SetBool("WallHold", false);
+        //anim.GetComponent<SpriteRenderer>().flipX = true;
+    }
+
+    public void WallJump()
+    {
+        anim.SetBool("WallHold", false);
+        anim.GetComponent<SpriteRenderer>().flipX = true;
+        anim.SetBool("IsJumping", true);
+    }
+
 
 
 
