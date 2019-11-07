@@ -16,9 +16,9 @@ public class Controller2D : RaycastController
 
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
-    public override void start()
+    public override void Start()
     {
-        base.start();
+        base.Start();
         collisions.faceDir = 1;
     }
 
