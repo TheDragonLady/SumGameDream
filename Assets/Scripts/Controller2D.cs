@@ -12,9 +12,9 @@ public class Controller2D : RaycastController
     public CollisionInfo collisions;
     Vector2 playerInput;
 
-    public override void Start()
+    public override void start()
     {
-        base.Start();
+        base.start();
         collisions.faceDir = 1;
     }
 
