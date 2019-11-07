@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Player))]
 public class PlayerPush : MonoBehaviour
 {
     public float distance = 1f;
@@ -24,7 +25,7 @@ public class PlayerPush : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(boxDetector, Vector2.right, distance, boxMask);
         Debug.Log(hit.collider);
 
-        if(hit.collider !=null && hit.collider.tag == "Pushable" && Input.GetKeyDown(KeyCode.E))
+        if (hit.collider != null && hit.collider.tag == "Pushable" && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("button is pressed");
             box = hit.collider.gameObject;
@@ -50,9 +51,9 @@ public class PlayerPush : MonoBehaviour
 
         Gizmos.DrawLine(boxDetector, (Vector2)transform.position + Vector2.right * distance);
     }
-
+    
     //void DisableMask()
     //{
-    //    player.GetComponent<RaycastController>().collisionMask = LayerMask.GetMask("Default");
+    //    gameObject.GetComponent<RaycastController>().collisionMask = LayerMask.GetMask("Default");
     //}
 }

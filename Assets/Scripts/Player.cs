@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     Controller2D controller;
 
     Vector2 directionalInput;
-    bool wallSliding;
+    public bool wallSliding;
     int wallDirX;
 
 
@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
         directionalInput = input;
     }
 
-    public void OnJumpInputDown ()
+    public void OnJumpInputDown()
     {
         if (wallSliding)
         {
