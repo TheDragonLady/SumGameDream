@@ -25,7 +25,7 @@ public class PlayerPush : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(boxDetector, Vector2.right, distance, boxMask);
         Debug.Log(hit.collider);
 
-        if(hit.collider !=null && hit.collider.tag == "Pushable" && Input.GetKeyDown(KeyCode.E))
+        if (hit.collider != null && hit.collider.tag == "Pushable" && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("button is pressed");
             box = hit.collider.gameObject;
