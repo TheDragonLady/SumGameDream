@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 35981edd2ed7bd74fb41c808457f81bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1575159302527208716
+    second: idleanimation_0
+  - first:
+      213: 7389332788828272098
+    second: idleanimation_1
+  - first:
+      213: -7200278571560492260
+    second: idleanimation_2
+  - first:
+      213: -5158890435779876988
+    second: idleanimation_3
+  - first:
+      213: 4928619314796199008
+    second: idleanimation_4
+  - first:
+      213: -5469347080791535045
+    second: idleanimation_5
+  - first:
+      213: 5570921712295008874
+    second: idleanimation_6
+  - first:
+      213: 2992374051326968505
+    second: idleanimation_7
+  - first:
+      213: 486933091648729538
+    second: idleanimation_8
+  - first:
+      213: 6476460542495229675
+    second: idleanimation_9
+  - first:
+      213: -5570373951112249940
+    second: idleanimation_10
+  - first:
+      213: -9036227879930605155
+    second: idleanimation_11
+  - first:
+      213: 3098312758714772778
+    second: idleanimation_12
+  - first:
+      213: 7142897644803244232
+    second: idleanimation_13
+  - first:
+      213: 1735508678342509492
+    second: idleanimation_14
+  - first:
+      213: -7261450031138613182
+    second: idleanimation_15
+  - first:
+      213: -3878334976931933065
+    second: idleanimation_16
+  - first:
+      213: 3144520304472506355
+    second: idleanimation_17
+  - first:
+      213: 1390712028489338529
+    second: idleanimation_18
+  - first:
+      213: 5757489726923848653
+    second: idleanimation_19
+  - first:
+      213: -4825985470242744049
+    second: idleanimation_20
+  - first:
+      213: 1801150128592495848
+    second: idleanimation_21
+  - first:
+      213: 54253068445893365
+    second: idleanimation_22
+  - first:
+      213: 8050288802091383877
+    second: idleanimation_23
+  - first:
+      213: -8271960099178429659
+    second: idleanimation_24
+  - first:
+      213: 8318591461241129595
+    second: idleanimation_25
+  - first:
+      213: 3791315870311959535
+    second: idleanimation_26
+  - first:
+      213: 4962707188324490039
+    second: idleanimation_27
+  - first:
+      213: -5726528073514565445
+    second: idleanimation_28
+  - first:
+      213: 4203642248205577265
+    second: idleanimation_29
+  - first:
+      213: 3766252118216120779
+    second: idleanimation_30
+  - first:
+      213: 3400182946337899586
+    second: idleanimation_31
+  - first:
+      213: -4744712107924225923
+    second: idleanimation_32
+  - first:
+      213: -4140931719149536295
+    second: idleanimation_33
+  - first:
+      213: -4786706323364707036
+    second: idleanimation_34
+  - first:
+      213: -5560349877350590630
+    second: idleanimation_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idleanimation_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 144
+        width: 486
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b773aed72cf254e4da2356f84b4b491e
+      internalID: 1575159302527208716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleanimation_1
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 144
+        width: 488
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4307d4243663304da95265fad3bc7c9
+      internalID: 7389332788828272098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleanimation_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 144
+        width: 488
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cf79f403dbc91418fa3f192005224e
+      internalID: -7200278571560492260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleanimation_3
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 144
+        width: 490
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6524c54c3d1934c96574a8b80497d2
+      internalID: -5158890435779876988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleanimation_4
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 145
+        width: 488
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9bedb4c6eea2f4c80a96dea134b5cd
+      internalID: 4928619314796199008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleanimation_5
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 144
+        width: 488
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7470cd28cf30126458e8e0dc0a0b9f98
+      internalID: -5469347080791535045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ab349185f22a4f446bfafc2072f38d34
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
