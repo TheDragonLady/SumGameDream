@@ -122,6 +122,7 @@ public class PlatformController : RaycastController
                 Vector2 rayOrigin = (directionY == -1) ? raycastOrigins.bottomLeft : raycastOrigins.topLeft;
                 rayOrigin += Vector2.right * (verticalRaySpacing * i);
                 RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, passengerMask);
+                Debug.DrawRay(rayOrigin, new Vector3(directionY, 0, 0), Color.green);
 
                 if (hit && hit.distance != 0)
                 {
@@ -136,6 +137,7 @@ public class PlatformController : RaycastController
                 }
             }
         }
+
         //Horizontally moved platforms
         if (velocity.x != 0)
         {
@@ -146,7 +148,7 @@ public class PlatformController : RaycastController
                 Vector2 rayOrigin = (directionX == -1) ? raycastOrigins.bottomLeft : raycastOrigins.bottomRight;
                 rayOrigin += Vector2.up * (horizontalRaySpacing * i);
                 RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.right * directionX, rayLength, passengerMask);
-
+                Debug.DrawRay(rayOrigin, new Vector3(directionX, 0, 0), Color.green);
                 if (hit && hit.distance != 0)
                 {
                     if (!movedPassengers.Contains(hit.transform))
