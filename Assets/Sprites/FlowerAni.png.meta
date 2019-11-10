@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 1d092dabad6cfe246aefd0be5d72cc33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4528057411193805688
+    second: FlowerAni_0
+  - first:
+      213: -1862883818447161928
+    second: FlowerAni_1
+  - first:
+      213: -3834131829192140935
+    second: FlowerAni_2
+  - first:
+      213: 841777475676077641
+    second: FlowerAni_3
+  - first:
+      213: -2250268967721634864
+    second: FlowerAni_4
+  - first:
+      213: 7690540630443819013
+    second: FlowerAni_6
+  - first:
+      213: 833085258793061351
+    second: FlowerAni_7
+  - first:
+      213: -3404563268942792139
+    second: FlowerAni_8
+  - first:
+      213: 673245287477302162
+    second: FlowerAni_9
+  - first:
+      213: 3485769632740485632
+    second: FlowerAni_10
+  - first:
+      213: -6654168730476244438
+    second: FlowerAni_11
+  - first:
+      213: 140892544627847610
+    second: FlowerAni_14
+  - first:
+      213: 2842054289417161976
+    second: FlowerAni_5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlowerAni_0
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 409
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.47651803, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eb32d6c80d95f4793a5a27e23cbebb
+      internalID: 4528057411193805688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_2
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 0
+        width: 427
+        height: 1344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18847acbf0fd48244965dde320f9dcfe
+      internalID: -3834131829192140935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_3
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 0
+        width: 458
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.47598758, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562db512d24220940b9edc584bc14927
+      internalID: 841777475676077641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_4
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 0
+        width: 451
+        height: 1342
+      alignment: 9
+      pivot: {x: 0.46611318, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb98c22bce492d342b767ae9187a8bba
+      internalID: -2250268967721634864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_5
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 0
+        width: 487
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.49077028, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded4ab1d81a9e9f49a43e27b91e68ad8
+      internalID: 2842054289417161976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_6
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 0
+        width: 515
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.35340422, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3926289a853e604db34ab65714e3270
+      internalID: 7690540630443819013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_7
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 0
+        width: 453
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.32903096, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac928c26a8089d4f9070875e3880072
+      internalID: 833085258793061351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_8
+      rect:
+        serializedVersion: 2
+        x: 4407
+        y: 0
+        width: 435
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.2991761, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9eb709af5b5e2c4aa40c248add5428c
+      internalID: -3404563268942792139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_9
+      rect:
+        serializedVersion: 2
+        x: 4918
+        y: 0
+        width: 458
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.34862003, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0508f71e89f0b042939e3e1bf635cdf
+      internalID: 673245287477302162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_10
+      rect:
+        serializedVersion: 2
+        x: 5426
+        y: 0
+        width: 440
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.3189575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f920c97280326a43a6038231baaf6ab
+      internalID: 3485769632740485632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAni_11
+      rect:
+        serializedVersion: 2
+        x: 5929
+        y: 0
+        width: 459
+        height: 1344
+      alignment: 9
+      pivot: {x: 0.39569184, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9561ba45f94115440b820ebaed84f80a
+      internalID: -6654168730476244438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d68e80dd65f8d0a4eb3b7cd25188a7be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
